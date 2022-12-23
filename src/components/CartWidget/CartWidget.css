@@ -1,0 +1,10 @@
+.CartWidget {
+
+display: flex;
+justify-content:end;
+padding-right: 2%;
+padding-bottom: 1%;
+padding-top: 1%;
+
+    
+}

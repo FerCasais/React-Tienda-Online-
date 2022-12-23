@@ -1,0 +1,22 @@
+.bienvenida {
+  font-size: larger;
+  text-align: center;
+  color: red;
+}
+
+.itemList:hover {
+  font-size: 250%;
+  font-weight: bolder;
+  background-color: rgb(205, 138, 181);
+  color: rgb(37, 32, 33);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  transform: translate(0px, 50px);
+  transition: all 3s ease-in-out;
+  
+}
+
+.itemList {
+    background-color: rgb(231, 170, 206);
+}
+
+
