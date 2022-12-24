@@ -2,6 +2,7 @@
   font-size: larger;
   text-align: center;
   color: red;
+  padding-top: 2%;
 }
 
 .itemList:hover {
@@ -17,6 +18,10 @@
 
 .itemList {
     background-color: rgb(231, 170, 206);
+}
+
+body {
+  background-color: rgb(231, 170, 206);
 }
 
 

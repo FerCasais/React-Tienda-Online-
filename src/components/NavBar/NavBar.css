@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     background-color: rgb(233, 223, 210);
     color: black;
 }
@@ -23,7 +23,7 @@
 .navSearch {
     display: flex;
     justify-content: end;
-   padding-bottom: 2%;
+   padding-bottom: 1%;
     padding-right: 2%;
     background-color: rgb(233, 223, 210);
 }

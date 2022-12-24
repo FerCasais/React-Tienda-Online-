@@ -9,7 +9,7 @@ function ItemListContainer(props) {
           className="bienvenida"
           style={{ color: props.color ? props.color : "black" }}
         >
-          {props.texto}
+          {props.greeting}
         </h4>
       </div>
     </>
