@@ -1,6 +1,7 @@
 import React from "react";
+import { BrowserRouter, Routes, Route, Navigate, Link, NavLink } from "react-router-dom";
 import "./NavBar.css";
-import CartWidget from "../../components/CartWidget/CartWidget";
+import CartWidget from "../CartWidget/CartWidget";
 import Header from "../../components/Header/Header";
 
 function NavBar(props) {
@@ -26,13 +27,18 @@ function NavBar(props) {
       </div>
 
       <ul className="nav">
-        <a href="#">Comedias</a>
-        <a href="#">Románticas</a>
-        <a href="#">Drama</a>
-        <a href="#">Documentales</a>
-        <a href="#">Series</a>
-        <a href="#">Suspenso</a>
-        <CartWidget />
+        <NavLink className={({isActive})=>isActive ? 'btn btn-success text-warning' : 'btn btn-danger'} to={'/categoria/comedias'} >Comedias</NavLink>
+        <NavLink className={({isActive})=>isActive ? 'btn btn-success text-warning' : 'btn btn-danger'}to={'/categoria/romanticas'}>Románticas</NavLink>
+        <NavLink className={({isActive})=>isActive ? 'btn btn-success text-warning' : 'btn btn-danger'}to={'/categoria/drama'}>Drama</NavLink>
+        <NavLink className={({isActive})=>isActive ? 'btn btn-success text-warning' : 'btn btn-danger'}to={'/categoria/documentales'}>Documentales</NavLink>
+        <NavLink className={({isActive})=>isActive ? 'btn btn-success text-warning' : 'btn btn-danger'}to={'/categoria/series'}>Series</NavLink>
+        <NavLink className={({isActive})=>isActive ? 'btn btn-success text-warning' : 'btn btn-danger'}to={'/categoria/suspenso'}>Suspenso</NavLink>
+        
+
+        <nav>
+        <Link to="/cart"><CartWidget /></Link>
+        
+        </nav>
       </ul>
     </div>
   );

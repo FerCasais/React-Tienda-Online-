@@ -5,7 +5,7 @@
   padding-top: 2%;
 }
 
-.itemList:hover {
+/* .itemList:hover {
   font-size: 250%;
   font-weight: bolder;
   background-color: rgb(205, 138, 181);
@@ -14,14 +14,40 @@
   transform: translate(0px, 50px);
   transition: all 3s ease-in-out;
   
-}
+} */
 
 .itemList {
     background-color: rgb(231, 170, 206);
 }
 
 body {
-  background-color: rgb(231, 170, 206);
+  background-color: brown
 }
+
+.card {
+  
+  display: flex;
+    justify-content: space-around;
+  margin-bottom: 5%;
+  margin-left: 2%;
+  margin-right: 2%;
+
+  
+
+}
+
+.producto-cards {
+  background-color: aqua;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+
+
+
+
+
+
 
 
