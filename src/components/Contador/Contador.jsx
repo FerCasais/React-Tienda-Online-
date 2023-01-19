@@ -26,7 +26,7 @@ function handler(){
         <>
         <div className="contador">
        
-        <button type="button" onClick={handler}>Click me</button>
+        <button type="button" className="boton" onClick={handler}>Click me</button>
          <h5>Clicks: {count}</h5>
          <p>{date}</p>
          </div>

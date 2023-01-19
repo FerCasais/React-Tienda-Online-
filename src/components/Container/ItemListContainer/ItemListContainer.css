@@ -37,7 +37,7 @@ body {
 }
 
 .producto-cards {
-  background-color: aqua;
+  background-color: rgba(242, 134, 217, 0.827);
   display: flex;
   justify-content: space-around;
   

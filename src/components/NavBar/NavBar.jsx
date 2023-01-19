@@ -27,12 +27,12 @@ function NavBar(props) {
       </div>
 
       <ul className="nav">
-        <NavLink className={({isActive})=>isActive ? 'btn btn-success text-warning' : 'btn btn-danger'} to={'/categoria/comedias'} >Comedias</NavLink>
-        <NavLink className={({isActive})=>isActive ? 'btn btn-success text-warning' : 'btn btn-danger'}to={'/categoria/romanticas'}>Románticas</NavLink>
-        <NavLink className={({isActive})=>isActive ? 'btn btn-success text-warning' : 'btn btn-danger'}to={'/categoria/drama'}>Drama</NavLink>
-        <NavLink className={({isActive})=>isActive ? 'btn btn-success text-warning' : 'btn btn-danger'}to={'/categoria/documentales'}>Documentales</NavLink>
-        <NavLink className={({isActive})=>isActive ? 'btn btn-success text-warning' : 'btn btn-danger'}to={'/categoria/series'}>Series</NavLink>
-        <NavLink className={({isActive})=>isActive ? 'btn btn-success text-warning' : 'btn btn-danger'}to={'/categoria/suspenso'}>Suspenso</NavLink>
+        <NavLink className={({isActive})=>isActive ? 'btn btn-dark text-warning' : 'btn btn-danger'} to={'/categoria/comedias'} >Comedias</NavLink>
+        <NavLink className={({isActive})=>isActive ? 'btn btn-dark text-warning' : 'btn btn-danger'}to={'/categoria/romanticas'}>Románticas</NavLink>
+        <NavLink className={({isActive})=>isActive ? 'btn btn-dark text-warning' : 'btn btn-danger'}to={'/categoria/drama'}>Drama</NavLink>
+        <NavLink className={({isActive})=>isActive ? 'btn btn-dark text-warning' : 'btn btn-danger'}to={'/categoria/documentales'}>Documentales</NavLink>
+        <NavLink className={({isActive})=>isActive ? 'btn btn-dark text-warning' : 'btn btn-danger'}to={'/categoria/series'}>Series</NavLink>
+        <NavLink className={({isActive})=>isActive ? 'btn btn-dark text-warning' : 'btn btn-danger'}to={'/categoria/suspenso'}>Suspenso</NavLink>
         
 
         <nav>
