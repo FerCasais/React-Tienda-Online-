@@ -1,14 +1,20 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { Container, Row, Col } from 'react-bootstrap';
 
 const Item = ({producto}) => {
   return (
-    <div>
+    
+       <div className="producto-cards">
+      
+          
+         
+
          <div
                   key={producto.id}
                   className="card w-100 mt-5 shadow bg-dark text-light text-center "
                 >
-                  <div className="card-header">
+                  <div className="card-header w-100">
                     <h5>Numero de Id: {producto.id}</h5>{" "}
                   </div>
                   <div className="card-body text-warning">
@@ -28,8 +34,9 @@ const Item = ({producto}) => {
                   </div>
                 </div>
              
-      
-    </div>
+             
+       </div>
+    
   )
 }
 
