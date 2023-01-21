@@ -17,9 +17,9 @@ function App() {
           <NavBar />
         </div>
 
-        <div>
+        {/* <div>
           <Contador />
-        </div>
+        </div> */}
 
         <Routes>
           <Route path="/" element={<ItemListContainer />} />

@@ -4,6 +4,7 @@ import "./NavBar.css";
 import CartWidget from "../CartWidget/CartWidget";
 import Header from "../../components/Header/Header";
 
+
 function NavBar(props) {
   return (
     <div>

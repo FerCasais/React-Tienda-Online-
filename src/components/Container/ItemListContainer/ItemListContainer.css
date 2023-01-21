@@ -21,7 +21,9 @@
 }
 
 body {
-  background-color: brown
+
+  background-color: rgb(215, 154, 199);
+  
 }
 
 .card {
@@ -37,7 +39,7 @@ body {
 }
 
 .producto-cards {
-  background-color: rgba(242, 134, 217, 0.827);
+  background-color: rgba(210, 146, 195, 0.827);
   display: flex;
   justify-content: space-around;
   

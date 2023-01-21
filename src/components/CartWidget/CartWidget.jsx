@@ -3,6 +3,7 @@ import cart from "../../assets/CartWidget.img/cart.svg";
 import "./CartWidget.css";
 
 
+
 function CartWidget() {
   return (
     <div className="CartWidget">
